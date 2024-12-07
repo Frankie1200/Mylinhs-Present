@@ -1,0 +1,114 @@
+/* TITLE */
+#page2_title, #page1_title {
+    text-align: center;
+    font-size: 30px;
+    color: bisque;
+}
+
+body {
+    background-image: url('flower\ field.png');
+    font-family:Verdana;
+}
+
+.page1_text {
+    text-align: center;
+}
+
+#flowers_link {
+    background-color: pink;
+    border: 0px;
+    border-radius: 25px;
+}
+#flowers_link_page2 {
+    background-color: pink;
+    border: 0px;
+    border-radius: 25px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#flowers_link:hover{
+    font-size: 15px;
+}
+
+#text, #text_div{
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    color: bisque;
+}
+
+.choice_text {
+    margin: 1px;
+    color: bisque;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+/* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
+}
+  
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    outline: 5px solid rgba(211, 211, 211, 0.5);
+}
+
+/* RADIO OPTIONS */
+.date_form {
+    margin: 1rem;
+    padding: 0px;
+    text-align: center;
+    border: 0px;
+}
+
+.dateChoices{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px;
+    margin: 10px;
+}
+
+.dateChoices:hover{
+    background-color: rgba(211, 211, 211, 0.5)
+}
+
+#choice4 {
+    margin-bottom: 0;
+}
+
+#cuteCat {
+    position: absolute;
+    top: 300px;
+    left: 370px;
+}
+
+#cuteBunny {
+    position: absolute;
+    top: 300px;
+    left: 770px;
+}
+
+.finalText {
+    color: bisque;
+}
+
+.finalDiv {
+    position: absolute;
+    left: 1100px;
+    bottom: 25px;
+    width: 200px;
+    height: 200px;
+}
